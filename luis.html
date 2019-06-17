@@ -1,0 +1,22 @@
+<html>
+   <body>
+      <div id="webchat" role="main"></div>
+      <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+      <script>
+         window.WebChat.renderWebChat(
+            {
+               directLine: window.WebChat.createDirectLine({
+                  token:'8SyGxbvsmFI.pWb-nnU6UYdubYK8u8RzskjuHz6_zYTcYYWAjHjWcRw'
+               }),
+               userID:'13b73bc2-36ec-4a81-8499-33b994fe9369',
+               username: 'Web Chat User',
+               locale: 'en-US',
+               botAvatarInitials: 'WC',
+               userAvatarInitials: 'WW'
+            },
+            document.getElementById('webchat')
+         );
+      </script>
+   </body>
+</html>
+
